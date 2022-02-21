@@ -91,7 +91,7 @@
 .section_e {
 	position: absolute;
 	/*top: -140px;*/
-	top: clamp(-10rem, 2vw, 2rem);
+	top: clamp(-10rem, -2vw, 2rem);
 	text-align: center; 
 }
 
@@ -99,7 +99,7 @@
 	/*display: none;*/
 	position: absolute; 
 	top: 350px; 
-	height: 210px; width: 100%; 
+	height: 400px; width: 100%; 
 	background: white;
 }
 
@@ -124,14 +124,14 @@
 }
 
 
-.ccc {
+.af_video {
 	position: absolute;
 	top: 350px; 
 	width: 100%;
 }
 @media screen and (max-width: 700px) {
-	.ccc {
-		top: clamp(2rem, 49vw, 40rem);
+	.af_video {
+		top: clamp(2rem, 47vw, 40rem);
 	}
 }
 
