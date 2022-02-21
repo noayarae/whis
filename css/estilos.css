@@ -116,7 +116,8 @@
 }
 .t_pic {
 	font-size: clamp(1.5rem, 3.5vw, 5rem); 
-	font-weight: bold; width: 100%; 
+	font-weight: bold; 
+	width: 100%; 
 	color: #ffffb3; 
 	text-align: center; 
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
